@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Warning--can't use both volume and number fields in WangEtAl2021
+You've used 35 entries,
+            1935 wiz_defined-function locations,
+            723 strings with 11129 characters,
+and the built_in function-call counts, 15048 in all, are:
+= -- 1490
+> -- 627
+< -- 23
++ -- 228
+- -- 208
+* -- 1350
+:= -- 2576
+add.period$ -- 108
+call.type$ -- 35
+change.case$ -- 277
+chr.to.int$ -- 35
+cite$ -- 36
+duplicate$ -- 534
+empty$ -- 1044
+format.name$ -- 271
+if$ -- 2932
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 33
+newline$ -- 178
+num.names$ -- 107
+pop$ -- 208
+preamble$ -- 1
+purify$ -- 276
+quote$ -- 0
+skip$ -- 406
+stack$ -- 0
+substring$ -- 1183
+swap$ -- 71
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 210
+warning$ -- 1
+while$ -- 132
+width$ -- 0
+write$ -- 461
+(There was 1 warning)
