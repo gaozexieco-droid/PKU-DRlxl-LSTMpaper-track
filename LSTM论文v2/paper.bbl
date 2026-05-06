@@ -1,0 +1,211 @@
+\begin{thebibliography}{}
+
+\bibitem[Adegboye and Kampouridis, 2021]{AdegboyeKampouridis2021}
+Adegboye, A. and Kampouridis, M. (2021).
+\newblock Machine learning classification and regression models for predicting
+  directional changes trend reversal in {FX} markets.
+\newblock {\em Expert Systems with Applications}, 173:114645.
+
+\bibitem[AlKhatib et~al., 2022]{AlKhatibEtAl2022}
+AlKhatib, K., Khazaleh, H., Alkhazaleh, H.~A., Al-Soud, A., and Abualigah, L.
+  (2022).
+\newblock A new stock price forecasting method using active deep learning
+  approach.
+\newblock {\em Journal of Open Innovation: Technology, Market, and Complexity},
+  8(2):96.
+
+\bibitem[Ayala et~al., 2021]{AyalaEtAl2021}
+Ayala, J., García-Torres, M., Vázquez~Noguera, J.~L., Gómez-Vela, F., and
+  Divina, F. (2021).
+\newblock Technical analysis strategy optimization using a machine learning
+  approach in stock market indices.
+\newblock {\em Knowledge-Based Systems}, 225:107119.
+
+\bibitem[Borovkova and Tsiamas, 2019]{BorovkovaTsiamas2019}
+Borovkova, S. and Tsiamas, I. (2019).
+\newblock An ensemble of {LSTM} neural networks for high-frequency stock market
+  classification.
+\newblock {\em Journal of Forecasting}, 38(6):600--619.
+
+\bibitem[Chiarella et~al., 2006]{ChiarellaHeHommes2006}
+Chiarella, C., He, X.-Z., and Hommes, C. (2006).
+\newblock A dynamic analysis of moving average rules.
+\newblock {\em Journal of Economic Dynamics and Control}, 30(9--10):1729--1753.
+
+\bibitem[Dai et~al., 2021]{DaiEtAl2021}
+Dai, B., Marshall, B.~R., Nguyen, N.~H., and Visaltanachoti, N. (2021).
+\newblock Risk reduction using trailing stop-loss rules.
+\newblock {\em International Review of Finance}, 21(4):1334--1352.
+
+\bibitem[Dempster and Jones, 2001]{DempsterJones2001}
+Dempster, M. A.~H. and Jones, C.~M. (2001).
+\newblock A real-time adaptive trading system using genetic programming.
+\newblock {\em Quantitative Finance}, 1(4):397--413.
+
+\bibitem[Dempster and Leemans, 2006]{DempsterLeemans2006}
+Dempster, M. A.~H. and Leemans, V. (2006).
+\newblock An automated {FX} trading system using adaptive reinforcement
+  learning.
+\newblock {\em Expert Systems with Applications}, 30(3):543--552.
+
+\bibitem[Ellis and Parbery, 2005]{EllisParbery2005}
+Ellis, C.~A. and Parbery, S.~A. (2005).
+\newblock Is smarter better? a comparison of adaptive, and simple moving
+  average trading strategies.
+\newblock {\em Research in International Business and Finance}, 19(3):399--411.
+
+\bibitem[Fischer and Krauss, 2018]{FischerKrauss2018}
+Fischer, T. and Krauss, C. (2018).
+\newblock Deep learning with long short-term memory networks for financial
+  market predictions.
+\newblock {\em European Journal of Operational Research}, 270(2):654--669.
+
+\bibitem[Gerlein et~al., 2016]{GerleinEtAl2016}
+Gerlein, E.~A., McGinnity, M., Belatreche, A., and Coleman, S. (2016).
+\newblock Evaluating machine learning classification for financial trading: An
+  empirical approach.
+\newblock {\em Expert Systems with Applications}, 54:193--207.
+
+\bibitem[Ghosh et~al., 2022]{GhoshEtAl2022}
+Ghosh, P., Neufeld, A., and Sahoo, J.~K. (2022).
+\newblock Forecasting directional movements of stock prices for intraday
+  trading using {LSTM} and random forests.
+\newblock {\em Finance Research Letters}, 46(Part A):102280.
+
+\bibitem[Glynn and Iglehart, 1995]{GlynnIglehart1995}
+Glynn, P.~W. and Iglehart, D.~L. (1995).
+\newblock Trading securities using trailing stops.
+\newblock {\em Management Science}, 41(6):1096--1106.
+
+\bibitem[Han et~al., 2023]{HanKimEnke2023}
+Han, Y., Kim, J., and Enke, D. (2023).
+\newblock A machine learning trading system for the stock market based on
+  {N}-period {Min-Max} labeling using {XGBoost}.
+\newblock {\em Expert Systems with Applications}, 211:118581.
+
+\bibitem[Hansun, 2013]{Hansun2013}
+Hansun, S. (2013).
+\newblock A new approach of moving average method in time series analysis.
+\newblock In {\em 2013 Conference on New Media Studies (CoNMedia)}, pages 1--4.
+  IEEE.
+
+\bibitem[Huang et~al., 2024]{HuangWanZhangLu2024}
+Huang, Y., Wan, X., Zhang, L., and Lu, X. (2024).
+\newblock A novel deep reinforcement learning framework with {BiLSTM-Attention}
+  networks for algorithmic trading.
+\newblock {\em Expert Systems with Applications}, 240:122581.
+
+\bibitem[Hunter, 1986]{Hunter1986}
+Hunter, J.~S. (1986).
+\newblock The exponentially weighted moving average.
+\newblock {\em Journal of Quality Technology}, 18(4):203--210.
+
+\bibitem[Hwang et~al., 2023]{HwangEtAl2023}
+Hwang, Y., Park, J., Lee, Y., and Lim, D.-Y. (2023).
+\newblock Stop-loss adjusted labels for machine learning-based trading of risky
+  assets.
+\newblock {\em Finance Research Letters}, 58(Part A):104285.
+
+\bibitem[Kim and Kim, 2019]{KimKim2019}
+Kim, T. and Kim, H.~Y. (2019).
+\newblock Optimizing the pairs-trading strategy using deep reinforcement
+  learning with trading and stop-loss boundaries.
+\newblock {\em Complexity}, 2019:3582516.
+
+\bibitem[Leung and Li, 2015]{LeungLi2015}
+Leung, T. and Li, X. (2015).
+\newblock Optimal mean reversion trading with transaction costs and stop-loss
+  exit.
+\newblock {\em International Journal of Theoretical and Applied Finance},
+  18(3):1--31.
+
+\bibitem[Leung and Zhang, 2021]{LeungZhang2021}
+Leung, T. and Zhang, H. (2021).
+\newblock Optimal trading with a trailing stop.
+\newblock {\em Applied Mathematics and Optimization}, 83(2):669--698.
+
+\bibitem[Lo and Remorov, 2017]{LoRemorov2017}
+Lo, A.~W. and Remorov, A. (2017).
+\newblock Stop-loss strategies with serial correlation, regime switching, and
+  transaction costs.
+\newblock {\em Journal of Financial Markets}, 34:1--15.
+
+\bibitem[Marshall et~al., 2017]{MarshallNguyenVisaltanachoti2017}
+Marshall, B.~R., Nguyen, N.~H., and Visaltanachoti, N. (2017).
+\newblock Time series momentum and moving average trading rules.
+\newblock {\em Quantitative Finance}, 17(3):405--421.
+
+\bibitem[Mehtab et~al., 2020]{MehtabSenDutta2020}
+Mehtab, S., Sen, J., and Dutta, A. (2020).
+\newblock Stock price prediction using machine learning and {LSTM}-based deep
+  learning models.
+\newblock arXiv preprint arXiv:2009.10819.
+
+\bibitem[Nelson et~al., 2017]{NelsonPereiraDeOliveira2017}
+Nelson, D. M.~Q., Pereira, A. C.~M., and de~Oliveira, R.~A. (2017).
+\newblock Stock market's price movement prediction with {LSTM} neural networks.
+\newblock In {\em 2017 International Joint Conference on Neural Networks
+  (IJCNN)}, pages 1419--1426. IEEE.
+
+\bibitem[Sebastião and Godinho, 2021]{SebastiaoGodinho2021}
+Sebastião, H. and Godinho, P. (2021).
+\newblock Forecasting and trading cryptocurrencies with machine learning under
+  changing market conditions.
+\newblock {\em Financial Innovation}, 7(1):1--30.
+
+\bibitem[Shawky, 2023]{Shawky2023}
+Shawky, T. (2023).
+\newblock Gold exchange traded funds ({ETFs}), take profit/stop loss prediction
+  using machine learning.
+\newblock {\em Journal of Business and Management Studies}, 5(4):6--17.
+
+\bibitem[Shen et~al., 2012]{ShenJiangZhang2012}
+Shen, S., Jiang, H., and Zhang, T. (2012).
+\newblock Stock market forecasting using machine learning algorithms.
+\newblock Technical report, Department of Electrical Engineering, Stanford
+  University.
+
+\bibitem[Sivri et~al., 2023]{SivriEtAl2023}
+Sivri, M.~S., Gultekin, A.~B., Ustundag, A., Beyca, O.~F., Ari, E., and Gurcan,
+  O.~F. (2023).
+\newblock An intelligent system for determination of stop-loss and take-profit
+  limits: A dynamic decision learning approach.
+\newblock In Kahraman, C., Sari, I.~U., Oztaysi, B., Cevik~Onar, S., Cebi, S.,
+  and Tolga, A.~�., editors, {\em Intelligent and Fuzzy Systems: Intelligence
+  and Sustainable Future Proceedings of the INFUS 2023 Conference}, volume 759
+  of {\em Lecture Notes in Networks and Systems}, pages 617--624. Springer
+  Nature.
+
+\bibitem[Trippi and DeSieno, 1992]{TrippiDeSieno1992}
+Trippi, R.~R. and DeSieno, D. (1992).
+\newblock Trading equity index futures with a neural network.
+\newblock {\em Journal of Portfolio Management}, 19(1):27--33.
+
+\bibitem[Tsantekidis et~al., 2021]{TsantekidisEtAl2020}
+Tsantekidis, A., Passalis, N., Toufa, A.-S., Saitas-Zarkias, K.,
+  Chairistanidis, S., and Tefas, A. (2021).
+\newblock Price trailing for financial trading using deep reinforcement
+  learning.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  32(7):2837--2846.
+
+\bibitem[Vezeris et~al., 2018]{VezerisKyrgosSchinas2018}
+Vezeris, D., Kyrgos, T., and Schinas, C. (2018).
+\newblock Take profit and stop loss trading strategies comparison in
+  combination with an {MACD} trading system.
+\newblock {\em Journal of Risk and Financial Management}, 11(3):56.
+
+\bibitem[Wang et~al., 2021]{WangEtAl2021}
+Wang, Z., Huang, B., Tu, S., Zhang, K., and Xu, L. (2021).
+\newblock {DeepTrader}: A deep reinforcement learning approach for risk-return
+  balanced portfolio management with market conditions embedding.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~35, pages 643--650.
+
+\bibitem[Zhong and Enke, 2019]{ZhongEnke2019}
+Zhong, X. and Enke, D. (2019).
+\newblock Predicting the daily return direction of the stock market using
+  hybrid machine learning algorithms.
+\newblock {\em Financial Innovation}, 5(1):1--20.
+
+\end{thebibliography}

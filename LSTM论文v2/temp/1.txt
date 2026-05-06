@@ -1,0 +1,8 @@
+The remainder of the paper is organized as follows.Section~\ref{sec:literature} reviews the 
+related literature in this field.Section~\ref{sec:analysisGiveBack} describes the empirical analysis of the
+profit giving-back phenomenon.Section~\ref{sec:methodology} presents the strategy and how it 
+works.Section~\ref{sec:results} reports the experimental design.Section~\ref{sec:mechanism} 
+reports and discusses our results.Section~\ref{sec:conclusion} extends our methodology to 
+different assets,adds transaction costs and adjust the parameters to check the robustness of 
+our results.Section~\ref{sec:conclusion} concludes the paper and discusses directions for 
+future research.
