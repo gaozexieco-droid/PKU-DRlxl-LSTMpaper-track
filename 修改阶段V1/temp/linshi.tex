@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\begin{document}
+
+\noindent \textbf{Asymmetric Loss Function and $\lambda_{dd}$ Formalization.} 
+
+To align the neural network's optimization objective with the real-world risk management goals of trend-following strategies, we introduce an asymmetric loss function. Standard Binary Cross-Entropy (BCE) loss treats False Positives (premature exits) and False Negatives (missed drawdown protections) symmetrically. However, in quantitative trading, the financial penalty of failing to capture a severe profit give-back is substantially higher than the opportunity cost of a slightly premature liquidation. 
+
+Therefore, during the training phase, we employ a Weighted Binary Cross-Entropy loss governed by the drawdown penalty coefficient ($\lambda_{dd}$). Formally, for a given training sequence at time $t$, the loss function is defined as:
+
+\begin{equation}
+\mathcal{L} = - \frac{1}{N} \sum_{i=1}^{N} \left[ \lambda_{dd} \cdot y_i \log(p_i) + (1 - y_i) \log(1 - p_i) \right]
+\end{equation}
+
+where $y_i \in \{0, 1\}$ represents the binary supervisory label of early exit, and $p_i$ is the conditional probability predicted by the LSTM layer. 
+
+The hyperparameter $\lambda_{dd} > 0$ acts as a financial risk-aversion multiplier. When $\lambda_{dd} > 1.0$, the gradient update heavily penalizes the model for failing to predict an early exit when a substantial trailing drawdown is imminent ($y_i = 1$). Economically, tweaking $\lambda_{dd}$ allows our framework to adapt to different market microstructures and accommodate traders with varying degrees of drawdown tolerance.
+
+\vspace{0.5em}
+\noindent \textbf{Empirical Discussion on Asset-Specific $\lambda_{dd}$ Variations.} 
+
+As reported in Table 5, the optimal hyperparameter configurations derived via grid search exhibit intriguing cross-asset heterogeneity, particularly regarding the drawdown penalty coefficient $\lambda_{dd}$ \cite{source1}. The baseline asset, Bitcoin (BTC), yields an optimal $\lambda_{dd} = 1.0$ \cite{source1}. This implies that for a highly liquid and historically less volatile cryptocurrency, a symmetric or moderately balanced loss structure is sufficient for the LSTM model to map out stable exit boundaries. 
+
+Conversely, for Ethereum (ETH) and Ripple (XRP), the optimal penalty climbs significantly to $\lambda_{dd} = 2.0$, while Solana (SOL) establishes an optimal threshold at $\lambda_{dd} = 1.5$ \cite{source1}. This phenomenological discrepancy can be rationalized by the inherent market microstructure and tail-risk characteristics of altcoins. High-beta assets such as SOL and XRP are notorious for their explosive late-stage trend accelerations followed by sharp, asymmetric mean-reversions—a primary driver of the severe profit give-back risk formalized in Section 1 \cite{source1}. For these assets, a standard loss function ($\lambda_{dd}=1.0$) would lean toward underestimating the swift destruction of paper profits. By allocating a higher loss weight ($\lambda_{dd} \ge 1.5$), the LSTM decision layer is forced to adopt a more conservative posture, prioritizing capital preservation and timely profit-locking, which empirically translates into superior Sharpe ratios and mitigated maximum drawdowns, as verified by our sensitivity analysis (see Figures 15–18 in Appendix B.3) \cite{source1}.
+
+\begin{thebibliography}{99}
+\bibitem{source1} Your reference here.
+\end{thebibliography}
+
+\end{document}
